@@ -1,0 +1,88 @@
+ul{
+    text-decoration-style: none;
+    list-style: none;
+    display:flex ;
+}
+.one{
+    font-family: monospace;
+}
+.two{
+    background-image: url(https://cdn.pixabay.com/photo/2020/02/10/04/56/virus-4835301_960_720.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+text-align: center;
+color: white;
+padding-top: 50px;
+
+
+
+}
+button{
+    align-self: center;
+    border: 1px solid;
+    border-radius: 3px;
+}
+button:hover{
+    
+    color: cornflowerblue;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+     max-width: 200px 250px 180px; 
+    /* height: auto;  */
+     margin: 10px; 
+    /* padding-left:10px ; */
+    overflow: hidden;
+    /* border: 1px solid red; */
+column-gap:10px ;
+ }
+ /* .grid-item1{
+    width: 200px;
+    
+    border: 1px solid blue;
+}
+.grid-item2{
+    width: 250px;
+    border: 1px solid green;
+}
+.grid-item3{
+    width: 180px;
+    border: 1px solid rebeccapurple;
+}   */
+
+.mia{
+    height:200px ;
+    width:cover ;
+    /* border: 3px solid red; */
+    text-align: center;
+}
+
+
+
+
+
+@media only screen and (max-width:600px){
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    /* max-width:200px  200px   200px; */
+    max-width:50% 50% ;
+}
+
+
+}
+@media only screen and (max-width:400px ) {
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    
+}
+@keyframes one {
+
+    
+}
